@@ -1,13 +1,8 @@
 function showGreeting() {
     var name = document.getElementById("nameInput").value;
     if (name.trim() !== "") {
-      var greeting = "";
-      if(name === "Vy") {
-          greeting = "Chúc " + name + " luôn vui vẻ ✨✨✨ \n xinh đẹp và thành công trên con đường đã chọn. \n Chúc Vy tất cả 🌸🌸🌸";
-      } else {
-          greeting = "Chúc " + name + " 8/3 vui vẻ nha !!! 😊";
+      var greeting = "Chúc " + name + " 8/3 vui vẻ nha !!! 😊";
           
-      }
         var greetingElement = document.getElementById("greeting");
         greetingElement.innerHTML = "";
         for (let i = 0; i < greeting.length; i++) {
