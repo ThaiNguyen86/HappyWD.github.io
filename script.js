@@ -3,10 +3,12 @@ function showGreeting() {
     if (name.trim() !== "") {
         var randomGreetings = [
             "Chúc " + name + " 8/3 vui vẻ nha !!! 😊",
-            "Chúc " + name + " luôn vui vẻ và hạnh phúc nha 😁",
+            "Chúc " + name + " luôn vui vẻ và gặp nhiều may mắn ☘️",
             "Hy vọng " + name + " có một ngày 8/3 tuyệt vời! 🙆‍♂️",
             "Chúc " + name + " ngày càng xinh đẹp, thành công nha 🌠",
-            "Chúc " + name + " kì này lụm học bổng 😆"
+            "Chúc " + name + " kì này lụm học bổng 😆",
+            "Chúc " + name + " có một ngày 8/3 thật vui tươi, tràn ngập hạnh phúc nhé 😁 ",
+            "Chúc " + name + " nhận được nhiều quà, nhiều hoa, nhiều lời chúc của phái nam trong ngày đặc biệt hôm nay nha 🌹 "
         ];
         var randomIndex = Math.floor(Math.random() * randomGreetings.length);
         var greeting = randomGreetings[randomIndex];
