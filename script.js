@@ -7,8 +7,8 @@ function showGreeting() {
             "Hy vọng " + name + " có một ngày 8/3 tuyệt vời! 🙆‍♂️",
             "Chúc " + name + " ngày càng xinh đẹp, thành công nha 🌠",
             "Chúc " + name + " kì này lụm học bổng 😆",
-            "Chúc " + name + " có một ngày 8/3 thật vui tươi, tràn ngập hạnh phúc nhé 😁 ",
-            "Chúc " + name + " nhận được nhiều quà, nhiều hoa nhiều lời chúc của phái nam \n trong ngày đặc biệt hôm nay nha 🌹 "
+            "Chúc " + name + " có một ngày 8/3 thật vui tươi \n và tràn ngập hạnh phúc nhé 😁 ",
+            "Chúc " + name + " nhận được nhiều quà, nhiều hoa \n và nhiều lời chúc của phái nam \n trong ngày đặc biệt hôm nay nha 🌹 "
         ];
         var randomIndex = Math.floor(Math.random() * randomGreetings.length);
         var greeting = randomGreetings[randomIndex];
