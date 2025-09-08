@@ -37,7 +37,7 @@ pipeline {
                   docker pull ${DOCKER_IMAGE}:${BUILD_NUMBER}
                   docker stop lab02_fe_app || true
                   docker rm lab02_fe_app || true
-                  docker run -d --name lab02_fe_app -p 3001:3000 ${DOCKER_IMAGE}:${BUILD_NUMBER}
+                  docker run -d --name lab02_fe_app -p 3001:8080 ${DOCKER_IMAGE}:${BUILD_NUMBER}
                 '''
             }
         }
